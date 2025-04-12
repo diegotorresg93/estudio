@@ -8,11 +8,11 @@
 <body>
     <?php
     
-    $cadena = "Hola mundo";
+    $cadena = "Hola mundo<p>";
     $anios12 = 12;
 
-    print $cadena;<p></p>
-    echo $anios12;
+    print $cadena;
+    echo  $anios12;
     
     ?>
 </body>
