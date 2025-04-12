@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Variables en PHP</title>
 </head>
 <body>
     <?php
     
-    $cadena = "Hola mundo<p>";
+    $cadena = "<p>Hola mundo</p>";
     $anios12 = 12;
 
     print $cadena;
