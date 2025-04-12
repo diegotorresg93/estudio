@@ -6,6 +6,10 @@
     <title>Condicionales en PHP</title>
 </head>
 <body>
-    
+   <?php
+   
+   
+   
+   ?> 
 </body>
 </html>
