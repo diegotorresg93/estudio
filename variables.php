@@ -11,7 +11,7 @@
     $cadena = "Hola mundo";
     $anios12 = 12;
 
-    print $cadena;
+    print $cadena;<p></p>
     echo $anios12;
     
     ?>
