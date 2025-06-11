@@ -21,8 +21,17 @@
     $casado = true;
 
     print $cadena;
-    echo  $anios12;
-    
+    echo  "<p>$anios12</p>";
+
+    //Concatenacion
+    print $nombre." ".$apellido;
+
+    print "<p>El nombre completo es: $nombre $apellido</p>";
+    //Secuencias de escape | se pueden ver las comillas o cualquier simbolo por ejemplo un $
+    print "<p>El nombre completo es: \"$nombre $apellido\"</p>";    
+    //HTML5
+    print ("<p>El nombre completo es: $nombre $apellido</p>");
+    echo ("<p>Y soy el esposo de Gabriela</p>");
     ?>
 </body>
 </html>
