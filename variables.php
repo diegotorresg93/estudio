@@ -32,6 +32,25 @@
     //HTML5
     print ("<p>El nombre completo es: $nombre $apellido</p>");
     echo ("<p>Y soy el esposo de Gabriela</p>");
+    
+    //Variables numericas
+    print $edad + $anios12;
+    print "<br></br>";
+    print $edad - $anios12;
+    print "<br></br>";
+    print $edad * $anios12;
+    print "<br></br>";
+    print $edad / $anios12;
+    print "<br></br>";
+    print $edad % $anios12;
+    //Presedencia de operadores
+    print "<br></br>";
+    print 4 + 5 * 3 ;
+    print "<br></br>";
+    //Cambiar la presedencia
+    print (4 + 5) * 3 ;
+
+
     ?>
 </body>
 </html>
