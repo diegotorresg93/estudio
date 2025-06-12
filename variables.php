@@ -49,6 +49,30 @@
     print "<br></br>";
     //Cambiar la presedencia
     print (4 + 5) * 3 ;
+    print "<br></br>";
+
+    //Atajos u operadores abreviados
+    print $edad = $edad + 5;
+    print "<br></br>";
+    print $edad += 5;
+    print "<br></br>";
+    print $edad =- 7;
+    print "<br></br>";
+    print $edad /= 2;
+    print "<br></br>";
+    print $edad *= 3;
+    print "<br></br>";
+    print $edad %= 2;
+    print "<br></br>";
+    print $edad++;
+    print "<br></br>";
+    print $edad--;
+    print "<br></br>";
+    $edad = 10;
+    $edad++;
+    print $edad;
+    print "<br></br>";
+
 
 
     ?>
