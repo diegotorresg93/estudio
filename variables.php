@@ -73,7 +73,25 @@
     print $edad;
     print "<br></br>";
 
+$df = 22000000;
+$giadalajara = 4000000;
+$monterrey = 1400000;
+$ciudad = "df";
+print "La poblacion de la ciudad $ciudad es de ${$ciudad} habitalbes</p>";
 
+$ciudad = "giadalajara";
+print "La poblacion de la ciudad $ciudad es de ${$ciudad} habitalbes</p>";
+
+$ciudad = "monterrey";
+print "La poblacion de la ciudad $ciudad es de ${$ciudad} habitalbes</p>";
+
+//unset ($deuda);
+//print $deuda;
+
+//Constantes / van en mayusculas normalmente
+define ("TASA_CAMBIO",13.35);
+
+print "Tu deuda en dolares es de ".($deuda*TASA_CAMBIO);
 
     ?>
 </body>
