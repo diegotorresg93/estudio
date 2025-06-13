@@ -12,6 +12,8 @@
 //Menor o igual <=
 //Mayor o igual >=
 //Igualdad ==
+$edad = "18";
+if ($edad == 18);
 //Igualdad extricta ===
 
    
