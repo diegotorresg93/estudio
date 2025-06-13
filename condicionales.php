@@ -7,6 +7,12 @@
 </head>
 <body>
    <?php
+//Mayor que >
+//Menor que <
+//Menor o igual <=
+//Mayor o igual >=
+//Igualdad ==
+//Igualdad extricta ===
 
    
    
