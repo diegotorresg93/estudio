@@ -8,8 +8,14 @@
 <body>
     <?php
     
-    
-    
+    //Ciclo while
+    $contador = 0;
+    while ($contador<10){
+        print "<p>El valor del contador es $contador</p>";
+        $contador++;
+
+    }
+    print "<p>Fin del ciclo, el valor dl contador es $contador</p>";
     
     
     
