@@ -15,7 +15,7 @@
         $contador++;
 
     }
-    print "<p>Fin del ciclo, el valor dl contador es $contador</p>";
+    print "<p>Fin del ciclo, el valor del contador es $contador</p>";
     
     
     
