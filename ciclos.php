@@ -17,7 +17,20 @@
     }
     print "<p>Fin del ciclo, el valor del contador es $contador</p>";
     
-    
+    //Ciclo do while
+    $numero = 120;
+    $binario = "";
+    do {
+
+        $d = $numero % 2;
+        $binario = $d.$binario;
+        //Calcular nuevo valor de numero
+        $numero = intval ($numero /2);
+
+
+    }while($numero >= 2);
+    $binario = $numero.$binario;
+    print "<p>El numero binario es $binario</p>";
     
     
     ?>
