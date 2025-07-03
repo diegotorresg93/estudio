@@ -33,6 +33,15 @@
     print "<p>El numero binario es $binario</p>";
     
     
+    //Ciclo for
+    $numElementos = 10;
+    for ($i = 0; $i<$numElementos; $i+=2)/*$i+=2 en vez de $i++ para aumentar de 2 en 2*/ {
+    print "<p>El valor del indice es $i</p>";
+
+
+    }
+print "<p>Fin del ciclo, el valor de i es de $i</p>";
+
     ?>
 </body>
 </html>
