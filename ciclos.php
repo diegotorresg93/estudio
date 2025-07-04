@@ -42,6 +42,34 @@
     }
 print "<p>Fin del ciclo, el valor de i es de $i</p>";
 
+     //Ejemplo del comando break
+     $elemento = 10;
+     for ($a=0; $a<$elemento; $a++){
+     if($a == 7){
+         print "<p>Con el siete, termino el ciclo</p>";
+         break;
+
+    }
+print "<p>El indice es $a</p>";
+
+
+     }
+print "Fin del ciclo";
+
+//Ejemplo del comando continue
+     $elemento = 10;
+     for ($a=0; $a<$elemento; $a++){
+     if($a%2 == 1){
+         continue;
+
+    }
+print "<p>El indice es $a</p>";
+
+
+     }
+print "Fin del ciclo";
+
+
     ?>
 </body>
 </html>
