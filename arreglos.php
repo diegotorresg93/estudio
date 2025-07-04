@@ -6,6 +6,14 @@
     <title>Arreglos</title>
 </head>
 <body>
+    <?php
     
+    
+    
+    
+    
+    
+    
+    ?>
 </body>
 </html>
