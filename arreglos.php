@@ -35,6 +35,13 @@ print "<li> $alumnos[$i] </li>";
 }
 print "</ul>";
 
+print "<ol>";
+foreach ($aMeses as $mes){
+    print "<li> $mes </li>";
+
+}
+print "</ol>";
+
 ?>
 
 
