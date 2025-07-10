@@ -42,6 +42,36 @@ foreach ($aMeses as $mes){
 }
 print "</ol>";
 
+$mesesDias = array_merge($aMeses, $dias);
+print "<p> Los elementos en el nuevo arreglo es de ".count($mesesDias). "</p>";
+
+$numAlumnos = array_push($alumnos, "Lucia", "Alejandro", "Gabriela");
+print "<p>Los alumnos inscritos al curso son ".count($alumnos)."</p>";
+print "<ul>";
+for($i=0; $i<count($alumnos); $i++){
+
+print "<li> $alumnos[$i] </li>";
+
+}
+print "</ul>";
+
+$baja = $alumnos[2];
+unset($alumnos[2]);
+print "<p> El alumno dado de baja es $baja</p>";
+print "<p>Ahora los alumnos incritos son ".count($alumnos)."</p>";
+
+$busca = "Paulina";
+$exito = in_array($busca, $alumnos);
+if($exito){
+
+    print "<p>Si hay un alumno llamado $busca en el grupo</p>";
+
+}else {
+    print "<p>No hay un alumno llamado $busca en el grupo</p>";
+}
+
+
+
 ?>
 
 
