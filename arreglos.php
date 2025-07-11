@@ -70,6 +70,31 @@ if($exito){
     print "<p>No hay un alumno llamado $busca en el grupo</p>";
 }
 
+//Ordenar un arreglo
+sort($alumnos);
+print "<p>Los alumnos ordenados alfabeticamente son: ".count($alumnos)."</p>";
+print "<ul>";
+for($i=0; $i<count($alumnos); $i++){
+
+print "<li> $alumnos[$i] </li>";
+
+}
+print "</ul>";
+
+$frutas = array("Naranja1", "naranja2", "Naranja3", "naranja20", "naranja100");
+sort($frutas);
+foreach ($frutas as $clave => $valor) {
+
+    echo "frutas[" .$clave. "] = " .$valor. "\n";
+
+}
+print "<p>Ordenado con banderas</p>";
+sort($frutas, SORT_NATURAL | SORT_FLAG_CASE);
+foreach ($frutas as $clave => $valor) {
+
+    echo "frutas[" .$clave. "] = " .$valor. "\n";
+
+}
 
 
 ?>
