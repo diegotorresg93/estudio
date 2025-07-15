@@ -96,6 +96,24 @@ foreach ($frutas as $clave => $valor) {
 
 }
 
+$alumno  = array (
+
+    "nombre"=>"Paco",
+    "apellido"=>"Bond",
+    "edad"=>"18",
+    "promedio"=>6);
+
+    print "<p>El alumno se llama $alumno[nombre], $alumno[apellido]</p>";
+    print "<p>Su edad es de ".$alumno["edad"]." años</p>";
+
+    foreach($alumno as $key=>$valor){
+        print "<p>El campo $key tiene un valor de $valor</p>";
+    }
+print "<p>Los campos ordenados son:</p>";
+asort($alumno);
+ foreach($alumno as $key=>$valor){
+        print "<p>El campo $key tiene un valor de $valor</p>";
+    }
 
 ?>
 
