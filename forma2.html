@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Datos Personales</title>
+  <style>
+    body {
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .formulario {
+      background-color: #f4b942;
+      padding: 20px;
+      width: 300px;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="password"],
+    textarea,
+    select {
+      width: 100%;
+      margin-top: 5px;
+    }
+    .estado-civil,
+    .pasatiempos {
+      margin-top: 5px;
+    }
+    .estado-civil input,
+    .pasatiempos input {
+      margin-right: 5px;
+    }
+    .idiomas {
+      margin-top: 10px;
+    }
+    .idiomas select {
+      width: 100%;
+      height: 100px;
+    }
+    input[type="submit"] {
+      margin-top: 15px;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="formulario">
+    <form>
+      <h3>Datos personales</h3>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+
+      <label for="clave">Clave de acceso:</label>
+      <input type="password" id="clave" name="clave">
+
+      <label for="direccion">Dirección:</label>
+      <textarea id="direccion" name="direccion" rows="4"></textarea>
+
+      <label>Estado Civil:</label>
+      <div class="estado-civil">
+        <input type="radio" name="estado" value="casado"> Casado<br>
+        <input type="radio" name="estado" value="soltero"> Soltero<br>
+        <input type="radio" name="estado" value="viudo"> Viudo<br>
+        <input type="radio" name="estado" value="divorciado"> Divorciado<br>
+        <input type="radio" name="estado" value="unionlibre"> Unión libre
+      </div>
+
+      <label for="nacionalidad">Nacionalidad:</label>
+      <select id="nacionalidad" name="nacionalidad">
+        <option value="canada">Canadá</option>
+        <option value="mexico">México</option>
+        <option value="espana">España</option>
+        <option value="argentina">Argentina</option>
+      </select>
+
+      <label>Pasatiempos:</label>
+      <div class="pasatiempos">
+        <input type="checkbox" name="pasatiempos" value="leer"> Leer<br>
+        <input type="checkbox" name="pasatiempos" value="dormir"> Dormir<br>
+        <input type="checkbox" name="pasatiempos" value="ajedrez"> Ajedrez<br>
+        <input type="checkbox" name="pasatiempos" value="musica"> Música
+      </div>
+
+      <label for="idiomas">Idiomas que hablas:</label>
+      <div class="idiomas">
+        <select id="idiomas" name="idiomas" multiple>
+          <option value="espanol">Español</option>
+          <option value="ingles">Inglés</option>
+          <option value="frances">Francés</option>
+          <option value="italiano">Italiano</option>
+          <option value="ruso">Ruso</option>
+        </select>
+      </div>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+
+</body>
+</html>
