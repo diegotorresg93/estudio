@@ -9,7 +9,16 @@
 <?php
 
 $nombre = $_GET["nombre"];
+$clave = $_GET["clave"];
+$direccion = $_GET["direccion"];
+$nacionalidad = $_GET["nacionalidad"];
+$estado = $_GET["estado"];
+//
 print "<p>Bienvenido, $nombre, a nuestra página</p>";
+print "<p>La clave es: $clave</p>";
+print "<p>Su direccion es: $direccion</p>";
+print "<p>Su nacionalidad es: $nacionalidad</p>";
+print "<p>Su estado civil es: $estado</p>";
 
 
 
