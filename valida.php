@@ -9,16 +9,29 @@
 <?php
 
 $nombre = $_GET["nombre"];
+if($nombre==""){
+    print "<p>Error: no escribiste tu nombre</p>";
+}else {
+    print "<p>Bienvenido, $nombre, a nuestra página</p>";
+}
 $clave = $_GET["clave"];
+if($clave==""){
+    print "<p>Error: no escribiste tu clave</p>";
+}else {
+    print "<p>La clave es: $clave</p>";
+}
 $direccion = $_GET["direccion"];
+if($direccion==""){
+    print "<p>Error: no escribiste tu dirección</p>";
+}else {
+    print "<p>Su dirección es: $direccion</p>";
+}
 $nacionalidad = $_GET["nacionalidad"];
 $estado = $_GET["estado"];
 //Valores multiples
 $pasatiempos = $_GET["pasatiempos"];
 $idiomas = $_GET["idiomas"];
-print "<p>Bienvenido, $nombre, a nuestra página</p>";
-print "<p>La clave es: $clave</p>";
-print "<p>Su direccion es: $direccion</p>";
+//
 print "<p>Su nacionalidad es: $nacionalidad</p>";
 print "<p>Su estado civil es: $estado</p>";
 $numPasatiempos = count($pasatiempos);
